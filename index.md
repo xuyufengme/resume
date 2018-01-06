@@ -1,37 +1,138 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/xuyufengme/resume/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xuyufengme/resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+个人简历
+姓 名：徐玉峰 
+性 别：男
+民 族：汉
+学 历：本科 
+联系方式：18611866643
+电子邮箱：xuyufengme@163.com
+应聘职位：JAVA 开发工程师  工作地点：北 京
+工作性质：全 职  期望薪资：15K
+一 、久隆财险
+（1 1 ）手续费项目
+数据库：oracle 服务器环境：weblogic
+硬件环境：Windows 开发工具：Eclipse
+项目描述：
+手续费管理支持维护服务代码、推荐人、中介管理、协议管理、费用规则管理、标的信息改造，且支持进行手续费支
+付；项目涉及投保管理、核保审核、批改管理、保单打印、协议出单模板管理、中介管理、协议管理、费用规则管理、手续
+费支付、手续费抵扣；项目目的：打通个人代理渠道端到端流程，从个人代理人配置、出单到手续费结算；
+项目职责：
+负责投保、批改标的信息页面改造；投保管理、核保审核、批改管理页面根据中介人和中介代码查询改造；手续费按
+票抵扣、银行到账页面新增等
+（2 2 ） 车船税优化改造 项目
+数据库：oracle 服务器环境：weblogic
+硬件环境：Windows 开发工具：Eclipse
+项目描述：
+目前系统中车船税申报操作不方便批量操作，需优化系统支持批量导出 EXCEL 待申报清单和批量导出已申请的清单，
+同时支持批量将申报信息上传平台，如果批量申报失败，需要导出失败原因到 EXCEL 展示。
+项目职责：
+画出车船税申报页面；按条件查询修改逻辑；申报成功提示、申报失败导出 EXCEL；对查询数据进行分页处理；
+（3 3 ） 证件号码校验 需求
+数据库：oracle 服务器环境：weblogic
+硬件环境：Windows 开发工具：Eclipse
+项目描述：
+系统中投保人、被保险人、受益人、行使证车主的证件类型为团体时，证件号码需根据各证件类型对应真实证件号码
+规则进行校验。模块：投保单录入、投保单修改、投保单复制、续保、批改；角色：投保人、被保险人、受益人、车主；
+项目职责：
+a.证件类型为营业执照的校验
+b.证件类型为组织机构代码证的校验
+c.证件类型为税务登记证的校验
+d.证件类型为统一社会信用代码的校验
+（4 4 ） 核单界面下发原因版块的优化
+项目描述：
+缩短核单时效，撤销人工通知，提高系统自动化，配合承保待办平台使用项目职责，增加下发原因，原因分为一级、
+二级、三级；一级、二级为双击域，三级为输入域，录入数据实时储;一级下发原因和二级下发原因保存时进行校验，如果
+为空则提示“请选择一级下发原因”或“请选择二级下发原因”，优先判断一级下发原因。
+项目职责：
+个人信息
+求职意向
+项目经验
+使用 js 控制弹出新增下发页面，画出一级、二级、三级及保存、取消等字段展示；对录入数据实时存储、展示;对录
+入数据进行保存校验。
+项目技术：
+1.项目使用 Spring+Hibernate+Struts 框架构建开发平台,使用 jsp、js、css 等构建展示页面，项目使用 SpringMVC
+的方式分为控制、业务、展示降低耦合度;
+2.项目使用 HSSFWorkbook 导出 xsl 文件，使用 SpringQuartz 跑自动化任务执行批量处理数据；
+3.oracle 数据库配置协议模板，权限规则等；
+4.svn 管理代码规范；
+项目总结：
+1.项目使用 Hibernate 框架，使我深入了解 ORM 框架对于大量处理业务数据的便利；
+2.项目使用 weblogic 部署；使用 svn 管理代码，让我在使用时要注意提交规范，书写代码要规范，必要的注释要明了；
+3.项目使用 autotask 单独跑任务，使其业务与核心分离，减少服务器压力；
+二、恒邦保险 公司
+（1 1 ）车商系统
+数据库：oracle 服务器环境：weblogic
+硬件环境：Windows 开发工具：Eclipse
+项目描述：为方便车商理赔业务更加高效快捷，特开发此系统，该系统主要有车商信息管理、送返修管理、车商协议管理、
+短信模板管理（维护与修改）、文件下载管理（下载查询与数据调取）、车商指标查询与维护、车商送返修指引核心对接等；
+我主要参与：车商送返修管理、车商协议模板改造、车商指标与规则维护及核心对接等模块的开发；
+车商送返修管理：设计页面、数据库表结构及字段；包含增删改查的的页面设计和后台 atction、service、dao 层的设计实
+现；
+车商协议模板：修改 service 业务逻辑，是车商的协议走新增的车商信息表查询；
+车商指标与规则维护：设计新增指标页面、数据库表和字段；新增规则表设计及指标与规则关联关系，规则公式的计算方式
+及后台的处理；
+三 、 中国移动电子采购增值服务平台
+数据库：Mysql 服务器环境：Tomcat
+硬件环境：Windows 开发工具：Eclipse
+项目描述：中国移动电子采购增值服务平台功能主要分为 4 个大类：招标大厅、招采公告、服务中心、我的移动招采，要在
+客户端中直接体现，方便用户切换各项功能。
+团队人数： 7 人
+项目职责： 负责招标大厅中招标代理、专家代理和供应商模块的实现；
+项目技术：
+1. 使用SpringBoot+Mybatis+Docker框架快速搭建开发平台;
+2. 使用SpringQuartz + SpringBatch定时实现批处理大量数据，使用logback记录日志信息
+3. 使用Mybatis,Redis等操作连接数据库,使用base64+Md5加密解密。
+项目总结：
+1.项目整体使用 SpringBoot 、SpringMVC、Mybatis 等技术；
+2.通过此项目使我加深了对 Spring 框架的理解，对 J2EE 企业级开发框架的优势；
+四 ： 平台管理系统
+数据库：Mysql 硬件环境：Windows
+服务器环境：Tomcat 开发工具：Eclipse
+项目业务：1.应用管理 2.企业门户 3.授权管理 4.管理日志 5.配置中心 6.服务授权 7.帮助文档
+等七大模块。
+项目职责：
+1.负责应用管理中的内部版本和企业门户中外部版本管理，应用新增页面新增版本管理和用户管理，画他
+们的页面，设计版本管理与用户的表结构和字段处理及业务逻辑处理； 
+2.企业门户中的门户新增外部页面链接功能；新增创建门户资源管理页面，并设计数据库字段和处理增删
+改查的逻辑。
+项目技术：项目使用 Spring、hibernate、sevlet 做业务后台处理，使用 JQ、JS、Jsp 做页面展示，使用
+log4j 打印日志信息，使用 mysql 数据库保存基本数据等；
+2016/10---- 至今 中科软科技股份有限公司
+工作内容：
+项目使用 Struts、Hebernate、Spring 等开源框架；使用 eclipse 集成开发工具；weblogic 部署服务
+器，oracle 数据库固化数据；svn 管理代码；主要负责：承保相关业务，理赔相关业务和自动化任务；主
+要参与车险自动生成报价信息、产品标的增加代理信息、证件号码校验、商业险优惠系数调整、车船税优
+化、标的页面改造、算税平台切换、财务凭证回写数据改造、暂收款页面改造、手续费项目及久隆官网信
+息披露、autotask 自动化任务跑批任务等开发；
+2014/07----2016/10  宏信动力科技有限公司
+工作内容：
+熟练使用 HTML/XML、JavaScript、CSS、JSP、Java 语言、Ajax，熟悉 SSH 框架,SSM 框架，熟悉 Spring
+框架使用、Hibernate 持久层框架，熟悉 JPA 对项目的简化开发，熟悉 Hibernate 一对多，多对多的单向
+双向外键级联关系，熟练使用 Eclipse 开发工具，使用 Spring、mybatis、SpringMVC、tomcat Web 容器
+等快速开发项目；负责编写使用软件规范，测试系统软件，编写模块代码等；能独立负责项目一些模块的
+文档编写和模块编写；熟练 J2EE 企业级开发；熟练使用 git 分布式版本控制系统管理维护代码，熟练
+Maven/gradle 依赖工具管理,有 android/ios 开发项目。
+1.精通 JSP/Servlet、JavaScript、Ajax、Jquery 等 web 开发基础技术；
+2.熟练使用 Struts、Spring、Hibernate、SpringMVC、Mybatis/ibatis；
+3.精通 spring 的批处理 SpringBatch、定时任务 SpringQuartz 及 SpringBoot 快速搭建服务平台；
+4.熟悉 Docker 开源应用容器引擎框架；有坚实的 java 基础，对面向对象有深入理解；
+5.熟练使用 gradle、Maven 管理依赖工具，快速搭建开发环境；
+6.熟练使用 git 工具,项目托管在 github 上；熟练使用 svn 提交代码和版本管理；
+7.熟悉 html、xhtml、css、thymeleaf 及模板使用、bootstrap 开源工具包等；
+8.熟悉 xml、xsl 与 HTML数据转换、熟悉 Webservice、nginx 反向代理；
+9.熟练配置 weblogic 应用服务器搭建环境及 tomcat 服务器使用；
+10.精通 mysql 数据库开发应用，oracle 数据库优化等；
+1 11.熟练 SQL 语言,能够熟练地使用 SQL 语句进行数据库的增删改查。
+12.熟练使用 weblogic 使用和部署开发项目；对 tomcat 部署项目深入了解。
+13.熟练 MyBatis 框架，以及了解数据库优化。
+14.熟练使用 redmine 项目管理软件,对项目进度实时监控查看进度；
+15.熟练使用 JIRA 工具对项目与事务跟踪工具；
+郑州航空工业管理学院 本科
+☆ 主动性强，有良好的沟通能力，组织协调能力，具有很好的团队协作意识。
+☆ 工作认真、踏实，责任心、进取心、执行力及抗压性强，乐于挑战 。
+☆ 具备独立分析和解决问题的能力，有良好的职业道德和工作态度，有良好的客户交流通能力和需求理
+解能力。
+☆ 有一定的实践能力，能很好的与团队合作和完成上级交给的任务。
+技能掌握
+自我评价
+工作 经历
+教育背景
